@@ -12,6 +12,7 @@ public class BasePage {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 		//added new line here to check it
+		//i add line from eclipse
 	}
 
 }
