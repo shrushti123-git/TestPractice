@@ -49,7 +49,7 @@ public class BusSearchPage extends BasePage {
 	@FindBy(xpath = "//div[@class='PickUpDropSelection_busStopTextContainer__IwUzp']//div[normalize-space()='Chembur']")
 	WebElement Pickup;
 	
-	@FindBy(xpath = "//div[@class='PickUpDropSelection_busStopTextContainer__IwUzp']//div[normalize-space()='Tale Gaon']")
+	@FindBy(xpath = "//div[@class='PickUpDropSelection_busStopTextContainer__IwUzp']//div[normalize-space()='Kalewadi']")
 	WebElement DropAt;
 	
 	@FindBy(xpath = "//button[normalize-space()='Continue']")
