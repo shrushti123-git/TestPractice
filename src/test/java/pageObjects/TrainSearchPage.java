@@ -34,7 +34,7 @@ public class TrainSearchPage extends BasePage{
 	@FindBy(xpath = "//li[@role='option']//p[@class='searchedResult font14 darkText']")
 	List<WebElement> tocities;
 	
-	@FindBy(xpath = "//div[@class='DayPicker-Month'][1]//div[@class='DayPicker-Day']")
+	@FindBy(xpath = "//div[@class='DayPicker-Month'][2]//div[@class='DayPicker-Day']")
 	List<WebElement> fromdates;
 	
 	@FindBy(xpath = "//ul[@class='travelForPopup']//li[@data-cy=\"2A\"]")
@@ -105,7 +105,7 @@ public class TrainSearchPage extends BasePage{
 		{
 			String date =d.getText();
 			System.out.println(date);
-			if(date.contains("31"))
+			if(date.contains("10"))
 			{
 				d.click();
 				break;

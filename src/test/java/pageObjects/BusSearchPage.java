@@ -31,7 +31,7 @@ public class BusSearchPage extends BasePage {
 	@FindBy(xpath = "//p[@class='searchedResult font14 darkText']")
 	List<WebElement> ToBusStops;
 	
-	@FindBy(xpath = "//div[@class='DayPicker-Month'][1]//div[@class='DayPicker-Day']")
+	@FindBy(xpath = "//div[@class='DayPicker-Month'][2]//div[@class='DayPicker-Day']")
 	List<WebElement> FromDates;
 	
 	@FindBy(xpath = "//button[@id='search_button']")
@@ -106,7 +106,7 @@ public class BusSearchPage extends BasePage {
 		{
 			String date =d.getText();
 			System.out.println(date);
-			if(date.contains("31"))
+			if(date.contains("10"))
 			{
 				d.click();
 				break;
