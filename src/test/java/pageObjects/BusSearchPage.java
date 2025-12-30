@@ -106,7 +106,7 @@ public class BusSearchPage extends BasePage {
 		{
 			String date =d.getText();
 			System.out.println(date);
-			if(date.contains("29"))
+			if(date.contains("31"))
 			{
 				d.click();
 				break;
